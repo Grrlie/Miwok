@@ -43,4 +43,13 @@ public class Word {
             return true;
     }
 
+    @Override
+    public String toString() {
+        return "Word{" +
+                "miwokWord='" + miwokWord + '\'' +
+                ", engWord='" + engWord + '\'' +
+                ", imageId=" + imageId +
+                ", soundId=" + soundId +
+                '}';
+    }
 }
