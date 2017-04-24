@@ -25,8 +25,6 @@ public class WordAdapter extends ArrayAdapter <Word>{
 
     int colorId;
 
-    MediaPlayer player;
-
     public WordAdapter(Activity context, ArrayList<Word> words, int color) {
         super(context, 0, words);
         this.colorId = color;
